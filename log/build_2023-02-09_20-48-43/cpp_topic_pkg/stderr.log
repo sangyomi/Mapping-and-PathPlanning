@@ -1,0 +1,3 @@
+make[2]: *** [CMakeFiles/parkingz_node.dir/build.make:76: CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/parkingz_node.dir/all] Interrupt
+make: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,7 @@
+[  7%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[ 21%] Built target topic_pub_node
+[ 35%] Built target laser_sub_node
+[ 50%] Built target cmd_vel_pub_node
+[ 64%] Built target topic_sub_node
+[ 78%] Built target topic_sub_oop_node
+[ 92%] Built target topic_pub_oop_node

@@ -1,0 +1,17 @@
+[0.048s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.109s] [ 12%] Built target cmd_vel_pub_node
+[0.116s] [ 18%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[0.122s] [ 31%] Built target laser_sub_node
+[0.128s] [ 43%] Built target topic_pub_node
+[0.130s] [ 56%] Built target parkingz_node
+[0.134s] [ 68%] Built target topic_pub_oop_node
+[0.138s] [ 81%] Built target topic_sub_node
+[0.146s] [ 93%] Built target topic_sub_oop_node
+[1.487s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::heading_scan_position(std::vector<float>&)[m[K’:
+[1.487s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:152:52:[m[K [01;31m[Kerror: [m[K‘[01m[KRR[m[K’ was not declared in this scope
+[1.487s]   152 |             x[i] = int((scanarray[i]*cos((heading+([01;31m[KRR[m[K*(i-359)))) + xpos)*10+50);
+[1.487s]       |                                                    [01;31m[K^~[m[K
+[3.003s] make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+[3.003s] make[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/parking_node.dir/all] Error 2
+[3.003s] make: *** [Makefile:146: all] Error 2
+[3.005s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8

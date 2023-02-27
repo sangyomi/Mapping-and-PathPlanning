@@ -1,0 +1,21 @@
+[1.500s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data
+[1.661s] running develop
+[1.754s] running egg_info
+[1.754s] writing py_topic_pkg.egg-info/PKG-INFO
+[1.754s] writing dependency_links to py_topic_pkg.egg-info/dependency_links.txt
+[1.754s] writing entry points to py_topic_pkg.egg-info/entry_points.txt
+[1.755s] writing requirements to py_topic_pkg.egg-info/requires.txt
+[1.755s] writing top-level names to py_topic_pkg.egg-info/top_level.txt
+[1.821s] reading manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[1.822s] writing manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[1.846s] running build_ext
+[1.854s] Creating /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/py-topic-pkg.egg-link (link to .)
+[1.855s] Installing cmd_vel_pub_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.855s] Installing endless_cmd_vel_pub_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.856s] Installing laser_raw_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.857s] Installing laser_sub_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.857s] Installing parking_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.859s] 
+[1.859s] Installed /home/sangjun/gcamp_ros2_ws/build/py_topic_pkg
+[1.859s] running install_data
+[1.933s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data

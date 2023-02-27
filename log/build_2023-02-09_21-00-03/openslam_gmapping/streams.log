@@ -1,0 +1,7 @@
+[0.083s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/openslam_gmapping -- -j8 -l8
+[0.382s] [ 13%] Built target utils
+[0.382s] [ 27%] Built target sensor_base
+[0.382s] [ 40%] Built target sensor_odometry
+[0.382s] [ 54%] Built target sensor_range
+[0.382s] [ 77%] Built target scanmatcher
+[0.382s] [100%] Built target gridfastslam

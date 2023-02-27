@@ -1,0 +1,13 @@
+[  7%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[ 21%] Built target topic_pub_node
+[ 35%] Built target laser_sub_node
+[ 50%] Built target cmd_vel_pub_node
+[ 64%] Built target topic_sub_node
+[ 78%] Built target topic_sub_oop_node
+[ 92%] Built target topic_pub_oop_node
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMapscanner[m[K’ does not name a type
+   27 |   [01;31m[KMapscanner[m[K A;
+      |   [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/parking_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

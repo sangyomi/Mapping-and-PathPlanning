@@ -1,0 +1,989 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2b7d76a790>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2b7d76a790>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2b7d76ad00>)
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sangjun/gcamp_ros2_ws'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_action_pkg) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_action_pkg' with type 'ros.ament_cmake' and name 'cpp_action_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_first_pkg) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_first_pkg' with type 'ros.ament_cmake' and name 'cpp_first_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_param_pkg) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_param_pkg' with type 'ros.ament_cmake' and name 'cpp_param_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_pkg) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_service_pkg' with type 'ros.ament_cmake' and name 'cpp_service_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_service_tutorial) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_service_tutorial' with type 'ros.ament_cmake' and name 'cpp_service_tutorial'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/cpp_topic_pkg) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/cpp_topic_pkg' with type 'ros.ament_cmake' and name 'cpp_topic_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/custom_interfaces) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/gcamp_gazebo) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/gcamp_gazebo' with type 'ros.ament_cmake' and name 'gcamp_gazebo'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/image) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_action_pkg) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_action_pkg' with type 'ros.ament_python' and name 'py_action_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_first_pkg) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_first_pkg' with type 'ros.ament_python' and name 'py_first_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_service_pkg) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_service_pkg' with type 'ros.ament_python' and name 'py_service_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gcamp_ros2_basic/py_topic_pkg) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gcamp_ros2_basic/py_topic_pkg' with type 'ros.ament_python' and name 'py_topic_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.181s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/sangjun/gcamp_ros2_ws/install
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 307 installed packages in /opt/ros/foxy
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_param_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_param_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_param_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_service_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'gcamp_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'gcamp_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'openslam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/openslam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/slam_gmapping/openslam_gmapping', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'py_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/py_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'py_topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'py_topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_action_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_action_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'cpp_service_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_service_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'py_action_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'py_action_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/py_action_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'py_service_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'py_service_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/py_service_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping', 'merge_install': False, 'path': '/home/sangjun/gcamp_ros2_ws/src/slam_gmapping/slam_gmapping', 'symlink_install': True, 'test_result_base': None}
+[0.251s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/custom_interfaces'
+[0.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/slam_gmapping/openslam_gmapping' with build type 'ament_cmake'
+[0.263s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/slam_gmapping/openslam_gmapping'
+[0.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg' with build type 'ament_cmake'
+[0.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_first_pkg'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_param_pkg' with build type 'ament_cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_param_pkg'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg' with build type 'ament_cmake'
+[0.297s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg'
+[0.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo'
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg' with build type 'ament_python'
+[0.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'ament_prefix_path')
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.ps1'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.dsv'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/ament_prefix_path.sh'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/custom_interfaces -- -j8 -l8
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/openslam_gmapping -- -j8 -l8
+[0.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg -- -j8 -l8
+[0.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg -- -j8 -l8
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial -- -j8 -l8
+[0.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo -- -j8 -l8
+[0.577s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_first_pkg'
+[0.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.580s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg -- -j8 -l8
+[0.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg -- -j8 -l8
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial -- -j8 -l8
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo -- -j8 -l8
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/openslam_gmapping -- -j8 -l8
+[0.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/custom_interfaces -- -j8 -l8
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/openslam_gmapping
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo
+[0.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_param_pkg)
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_param_pkg
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg' for CMake module files
+[0.664s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg' for CMake config files
+[0.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_param_pkg', 'cmake_prefix_path')
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/hook/cmake_prefix_path.ps1'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/hook/cmake_prefix_path.dsv'
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/hook/cmake_prefix_path.sh'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/lib'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/bin'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/lib/pkgconfig/cpp_param_pkg.pc'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/lib/python3.8/site-packages'
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/bin'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.bash'
+[0.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.zsh'
+[0.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/colcon-core/packages/cpp_param_pkg)
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg
+[0.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping' for CMake module files
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/openslam_gmapping
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping' for CMake config files
+[0.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[0.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/bin'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib/python3.8/site-packages'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/bin'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[0.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[0.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_tutorial)
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake module files
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake config files
+[0.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_tutorial', 'cmake_prefix_path')
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/bin'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib/pkgconfig/cpp_service_tutorial.pc'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib/python3.8/site-packages'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/bin'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.sh'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.bash'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.zsh'
+[0.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/colcon-core/packages/cpp_service_tutorial)
+[0.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gcamp_gazebo)
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo' for CMake module files
+[0.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo' for CMake config files
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('gcamp_gazebo', 'cmake_prefix_path')
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.sh'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/bin'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/lib/pkgconfig/gcamp_gazebo.pc'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/lib/python3.8/site-packages'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/bin'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.sh'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.bash'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.zsh'
+[0.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/colcon-core/packages/gcamp_gazebo)
+[0.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_first_pkg)
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg' for CMake module files
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_first_pkg
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg' for CMake config files
+[0.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_first_pkg', 'cmake_prefix_path')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.sh'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/lib'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/bin'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/lib/pkgconfig/cpp_first_pkg.pc'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/lib/python3.8/site-packages'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/bin'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.sh'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.bash'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.zsh'
+[0.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/colcon-core/packages/cpp_first_pkg)
+[0.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_param_pkg)
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg' for CMake module files
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg' for CMake config files
+[0.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_param_pkg', 'cmake_prefix_path')
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/hook/cmake_prefix_path.ps1'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/hook/cmake_prefix_path.dsv'
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/hook/cmake_prefix_path.sh'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/lib'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/bin'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/lib/pkgconfig/cpp_param_pkg.pc'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/lib/python3.8/site-packages'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/bin'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.sh'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.bash'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/cpp_param_pkg/package.zsh'
+[0.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg/share/colcon-core/packages/cpp_param_pkg)
+[0.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/custom_interfaces
+[0.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping' for CMake module files
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping' for CMake config files
+[0.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/bin'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib/python3.8/site-packages'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/bin'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[0.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[0.820s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg' with build type 'ament_python'
+[0.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'ament_prefix_path')
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/ament_prefix_path.sh'
+[0.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.831s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/slam_gmapping/slam_gmapping' with build type 'ament_cmake'
+[0.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/slam_gmapping/slam_gmapping'
+[0.833s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.833s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gcamp_gazebo)
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo' for CMake module files
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo' for CMake config files
+[0.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('gcamp_gazebo', 'cmake_prefix_path')
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.ps1'
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.dsv'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/hook/cmake_prefix_path.sh'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/bin'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/lib/pkgconfig/gcamp_gazebo.pc'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/lib/python3.8/site-packages'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/bin'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.sh'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.bash'
+[0.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.zsh'
+[0.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/colcon-core/packages/gcamp_gazebo)
+[0.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_tutorial)
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake module files
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial' for CMake config files
+[0.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_tutorial', 'cmake_prefix_path')
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.dsv'
+[0.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/hook/cmake_prefix_path.sh'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/bin'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib/pkgconfig/cpp_service_tutorial.pc'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib/python3.8/site-packages'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/bin'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.sh'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.bash'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.zsh'
+[0.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/colcon-core/packages/cpp_service_tutorial)
+[0.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_first_pkg)
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg' for CMake module files
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg' for CMake config files
+[0.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_first_pkg', 'cmake_prefix_path')
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.dsv'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/hook/cmake_prefix_path.sh'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/lib'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/bin'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/lib/pkgconfig/cpp_first_pkg.pc'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/lib/python3.8/site-packages'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/bin'
+[0.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.dsv'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.sh'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.bash'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.zsh'
+[0.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg/share/colcon-core/packages/cpp_first_pkg)
+[1.072s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_topic_pkg'
+[1.074s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.074s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces' for CMake module files
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/custom_interfaces
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces' for CMake config files
+[1.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib'
+[1.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/bin'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages'
+[1.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/bin'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[1.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/slam_gmapping -- -j8 -l8
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/py_first_pkg': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_first_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data
+[1.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/slam_gmapping -- -j8 -l8
+[1.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/slam_gmapping
+[1.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping' for CMake module files
+[1.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/slam_gmapping
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping' for CMake config files
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/lib'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/bin'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/lib/python3.8/site-packages'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/bin'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[1.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[1.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping' for CMake module files
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping' for CMake config files
+[1.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/lib'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/bin'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/lib/python3.8/site-packages'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/bin'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.sh'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.bash'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[1.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[1.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces' for CMake module files
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces' for CMake config files
+[1.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib'
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/bin'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages'
+[1.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/bin'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[1.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[1.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg' with build type 'ament_cmake'
+[1.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_action_pkg'
+[1.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg' with build type 'ament_cmake'
+[1.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg'
+[1.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.240s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg' with build type 'ament_python'
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'ament_prefix_path')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/ament_prefix_path.sh'
+[1.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.251s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg' with build type 'ament_python'
+[1.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'ament_prefix_path')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/ament_prefix_path.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg -- -j8 -l8
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg -- -j8 -l8
+[1.533s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_action_pkg'
+[1.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.789s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/py_service_pkg'
+[1.791s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.791s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg -- -j8 -l8
+[1.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg -- -j8 -l8
+[1.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'pythonpath_develop')
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.ps1'
+[1.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/py_first_pkg' returned '0': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_first_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.dsv'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/build/py_first_pkg/share/py_first_pkg/hook/pythonpath_develop.sh'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg' for CMake module files
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg' for CMake config files
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/bin'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/pkgconfig/py_first_pkg.pc'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages'
+[1.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_first_pkg', 'pythonpath')
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/hook/pythonpath.sh'
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/bin'
+[1.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_first_pkg)
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.ps1'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.dsv'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.sh'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.bash'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/py_first_pkg/package.zsh'
+[1.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/share/colcon-core/packages/py_first_pkg)
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data
+[1.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg
+[1.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg
+[1.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_pkg)
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg' for CMake module files
+[1.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg' for CMake config files
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_pkg', 'cmake_prefix_path')
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.ps1'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.dsv'
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.sh'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/bin'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib/pkgconfig/cpp_service_pkg.pc'
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib/python3.8/site-packages'
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/bin'
+[1.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.sh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.bash'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.zsh'
+[1.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/colcon-core/packages/cpp_service_pkg)
+[1.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_pkg)
+[1.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_action_pkg
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg' for CMake module files
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg' for CMake config files
+[1.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_pkg', 'cmake_prefix_path')
+[1.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.ps1'
+[1.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.dsv'
+[1.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.sh'
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/lib'
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/bin'
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/lib/pkgconfig/cpp_action_pkg.pc'
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/lib/python3.8/site-packages'
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/bin'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.ps1'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.sh'
+[1.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.bash'
+[1.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.zsh'
+[1.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/colcon-core/packages/cpp_action_pkg)
+[1.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_action_pkg)
+[1.915s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg' for CMake module files
+[1.915s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg' for CMake config files
+[1.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_action_pkg', 'cmake_prefix_path')
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.ps1'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/hook/cmake_prefix_path.sh'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/lib'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/bin'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/lib/pkgconfig/cpp_action_pkg.pc'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/lib/python3.8/site-packages'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/bin'
+[1.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.ps1'
+[1.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv'
+[1.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.sh'
+[1.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.bash'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/cpp_action_pkg/package.zsh'
+[1.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg/share/colcon-core/packages/cpp_action_pkg)
+[1.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_service_pkg)
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg' for CMake module files
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg' for CMake config files
+[1.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_service_pkg', 'cmake_prefix_path')
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.ps1'
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/hook/cmake_prefix_path.sh'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/bin'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib/pkgconfig/cpp_service_pkg.pc'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib/python3.8/site-packages'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/bin'
+[1.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.ps1'
+[1.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv'
+[1.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.sh'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.bash'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.zsh'
+[1.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/colcon-core/packages/cpp_service_pkg)
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/py_action_pkg': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_action_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_action_pkg/build --no-deps install_data
+[2.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/py_service_pkg': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_service_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data
+[2.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'pythonpath_develop')
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.ps1'
+[2.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data
+[2.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.dsv'
+[2.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/share/py_topic_pkg/hook/pythonpath_develop.sh'
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg' for CMake module files
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg' for CMake config files
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/bin'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/pkgconfig/py_topic_pkg.pc'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages'
+[2.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_topic_pkg', 'pythonpath')
+[2.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.dsv'
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/hook/pythonpath.sh'
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/bin'
+[2.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_topic_pkg)
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.ps1'
+[2.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.dsv'
+[2.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.sh'
+[2.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.bash'
+[2.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/package.zsh'
+[2.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/colcon-core/packages/py_topic_pkg)
+[2.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'pythonpath_develop')
+[2.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.ps1'
+[2.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/py_action_pkg' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_action_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_action_pkg/build --no-deps install_data
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.dsv'
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/build/py_action_pkg/share/py_action_pkg/hook/pythonpath_develop.sh'
+[2.656s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg' for CMake module files
+[2.656s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg' for CMake config files
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/bin'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/pkgconfig/py_action_pkg.pc'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages'
+[2.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_action_pkg', 'pythonpath')
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.ps1'
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.dsv'
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/hook/pythonpath.sh'
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/bin'
+[2.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_action_pkg)
+[2.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.ps1'
+[2.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.dsv'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.sh'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.bash'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/py_action_pkg/package.zsh'
+[2.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/share/colcon-core/packages/py_action_pkg)
+[2.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'pythonpath_develop')
+[2.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.ps1'
+[2.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/py_service_pkg' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_service_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.dsv'
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/build/py_service_pkg/share/py_service_pkg/hook/pythonpath_develop.sh'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg' for CMake module files
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg' for CMake config files
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/bin'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/pkgconfig/py_service_pkg.pc'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages'
+[2.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_service_pkg', 'pythonpath')
+[2.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.ps1'
+[2.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.dsv'
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/hook/pythonpath.sh'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/bin'
+[2.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_service_pkg)
+[2.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.ps1'
+[2.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.dsv'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.sh'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.bash'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/py_service_pkg/package.zsh'
+[2.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/share/colcon-core/packages/py_service_pkg)
+[6.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[6.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg
+[6.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pkg)
+[6.907s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake module files
+[6.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg
+[6.908s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake config files
+[6.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pkg', 'cmake_prefix_path')
+[6.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.ps1'
+[6.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.dsv'
+[6.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.sh'
+[6.912s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib'
+[6.912s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/bin'
+[6.912s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/pkgconfig/cpp_topic_pkg.pc'
+[6.912s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/python3.8/site-packages'
+[6.913s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/bin'
+[6.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.ps1'
+[6.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv'
+[6.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.sh'
+[6.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.bash'
+[6.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.zsh'
+[6.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/colcon-core/packages/cpp_topic_pkg)
+[6.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pkg)
+[6.953s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake module files
+[6.953s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg' for CMake config files
+[6.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pkg', 'cmake_prefix_path')
+[6.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.ps1'
+[6.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.dsv'
+[6.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/hook/cmake_prefix_path.sh'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/bin'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/pkgconfig/cpp_topic_pkg.pc'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/python3.8/site-packages'
+[6.957s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/bin'
+[6.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.ps1'
+[6.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv'
+[6.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.sh'
+[6.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.bash'
+[6.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.zsh'
+[6.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/colcon-core/packages/cpp_topic_pkg)
+[6.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.960s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.967s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.986s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.989s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sangjun/gcamp_ros2_ws/install/local_setup.ps1'
+[6.990s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sangjun/gcamp_ros2_ws/install/_local_setup_util_ps1.py'
+[6.992s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sangjun/gcamp_ros2_ws/install/setup.ps1'
+[6.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sangjun/gcamp_ros2_ws/install/local_setup.sh'
+[6.995s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sangjun/gcamp_ros2_ws/install/_local_setup_util_sh.py'
+[6.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sangjun/gcamp_ros2_ws/install/setup.sh'
+[6.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sangjun/gcamp_ros2_ws/install/local_setup.bash'
+[6.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sangjun/gcamp_ros2_ws/install/setup.bash'
+[6.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sangjun/gcamp_ros2_ws/install/local_setup.zsh'
+[7.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sangjun/gcamp_ros2_ws/install/setup.zsh'

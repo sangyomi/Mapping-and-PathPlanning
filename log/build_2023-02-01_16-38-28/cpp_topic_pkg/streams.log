@@ -1,0 +1,37 @@
+[0.058s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.514s] [  7%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[0.514s] [ 21%] Built target cmd_vel_pub_node
+[0.515s] [ 35%] Built target laser_sub_node
+[0.515s] [ 50%] Built target topic_pub_oop_node
+[0.515s] [ 64%] Built target topic_pub_node
+[0.515s] [ 78%] Built target topic_sub_node
+[0.515s] [ 92%] Built target topic_sub_oop_node
+[1.325s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.325s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:42:30:[m[K [01;31m[Kerror: [m[K‘[01m[KRight_Site[m[K’ was not declared in this scope
+[1.325s]    42 |     ArrayInit((msg->ranges), [01;31m[KRight_Site[m[K, Lift_Site);
+[1.326s]       |                              [01;31m[K^~~~~~~~~~[m[K
+[1.327s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:42:42:[m[K [01;31m[Kerror: [m[K‘[01m[KLift_Site[m[K’ was not declared in this scope
+[1.328s]    42 |     ArrayInit((msg->ranges), Right_Site, [01;31m[KLift_Site[m[K);
+[1.328s]       |                                          [01;31m[K^~~~~~~~~[m[K
+[1.328s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:39:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kforward_distance[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.329s]    39 |     auto [01;35m[Kforward_distance[m[K = (msg->ranges)[360];
+[1.329s]       |          [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.344s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.345s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.345s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.346s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.346s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.348s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.349s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.349s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.349s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.349s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.349s]                  from [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:17[m[K:
+[1.349s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::move_robot(const int&)[m[K’:
+[1.349s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:68:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kforward_distance[m[K’ was not declared in this scope
+[1.349s]    68 |     RCLCPP_INFO(get_logger(), "Distance from Obstacle ahead : %f", [01;31m[Kforward_distance[m[K);
+[1.349s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.726s] make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+[2.726s] make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/parking_node.dir/all] Error 2
+[2.727s] make: *** [Makefile:146: all] Error 2
+[2.728s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8

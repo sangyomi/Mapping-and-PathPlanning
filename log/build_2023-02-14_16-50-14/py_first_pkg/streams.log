@@ -1,0 +1,17 @@
+[2.840s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/py_first_pkg': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_first_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data
+[2.997s] running develop
+[3.069s] running egg_info
+[3.069s] writing py_first_pkg.egg-info/PKG-INFO
+[3.069s] writing dependency_links to py_first_pkg.egg-info/dependency_links.txt
+[3.069s] writing entry points to py_first_pkg.egg-info/entry_points.txt
+[3.069s] writing requirements to py_first_pkg.egg-info/requires.txt
+[3.069s] writing top-level names to py_first_pkg.egg-info/top_level.txt
+[3.095s] reading manifest file 'py_first_pkg.egg-info/SOURCES.txt'
+[3.095s] writing manifest file 'py_first_pkg.egg-info/SOURCES.txt'
+[3.119s] running build_ext
+[3.121s] Creating /home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages/py-first-pkg.egg-link (link to .)
+[3.121s] Installing hello_ros_node script to /home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/py_first_pkg
+[3.121s] 
+[3.122s] Installed /home/sangjun/gcamp_ros2_ws/build/py_first_pkg
+[3.122s] running install_data
+[3.159s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/py_first_pkg' returned '0': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_first_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_first_pkg/build --no-deps install_data

@@ -1,0 +1,24 @@
+[ 12%] Built target cmd_vel_pub_node
+[ 18%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[ 31%] Built target laser_sub_node
+[ 43%] Built target topic_pub_node
+[ 56%] Built target parkingz_node
+[ 68%] Built target topic_pub_oop_node
+[ 81%] Built target topic_sub_node
+[ 93%] Built target topic_sub_oop_node
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::ShowRoboVeloInfo()[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:186:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kprtinf[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+  186 |               [01;31m[Kprtinf[m[K("%d",Mapmatrix[i][j]);
+      |               [01;31m[K^~~~~~[m[K
+      |               [32m[Kprintf[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:188:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kprtinf[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+  188 |           [01;31m[Kprtinf[m[K("\n");
+      |           [01;31m[K^~~~~~[m[K
+      |           [32m[Kprintf[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:190:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kprtinf[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+  190 |       [01;31m[Kprtinf[m[K("\n");
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Kprintf[m[K
+make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/parking_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

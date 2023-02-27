@@ -1,0 +1,31 @@
+[0.058s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.252s] [  7%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[0.252s] [ 21%] Built target topic_pub_node
+[0.252s] [ 35%] Built target laser_sub_node
+[0.252s] [ 64%] Built target cmd_vel_pub_node
+[0.252s] [ 64%] Built target topic_pub_oop_node
+[0.252s] [ 78%] Built target topic_sub_node
+[0.252s] [ 92%] Built target topic_sub_oop_node
+[1.106s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.106s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:42:10:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[1.107s]    42 |     auto [01;35m[K[[m[KRight_Site,Lift_Site] = ArrayInit((msg->ranges));
+[1.107s]       |          [01;35m[K^[m[K
+[1.107s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:42:11:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto Right_Site[m[K’
+[1.107s]    42 |     auto [[01;31m[KRight_Site[m[K,Lift_Site] = ArrayInit((msg->ranges));
+[1.107s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.107s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:40:9:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint Right_Site[m[K’
+[1.107s]    40 |     int [01;36m[KRight_Site[m[K;
+[1.107s]       |         [01;36m[K^~~~~~~~~~[m[K
+[1.107s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:42:22:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto Lift_Site[m[K’
+[1.107s]    42 |     auto [Right_Site,[01;31m[KLift_Site[m[K] = ArrayInit((msg->ranges));
+[1.107s]       |                      [01;31m[K^~~~~~~~~[m[K
+[1.107s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:41:9:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint Lift_Site[m[K’
+[1.108s]    41 |     int [01;36m[KLift_Site[m[K;
+[1.108s]       |         [01;36m[K^~~~~~~~~[m[K
+[1.109s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:42:10:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K-Wunused-variable[m[K]
+[1.109s]    42 |     auto [01;35m[K[Right_Site,Lift_Site][m[K = ArrayInit((msg->ranges));
+[1.109s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.399s] make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+[2.399s] make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/parking_node.dir/all] Error 2
+[2.399s] make: *** [Makefile:146: all] Error 2
+[2.401s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8

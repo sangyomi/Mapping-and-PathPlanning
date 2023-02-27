@@ -1,0 +1,10 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:279:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+  279 |         CountMap++
+      |                   [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+  280 |         [32m[Kif[m[K(CountMap > 10)
+      |         [32m[K~~[m[K         
+make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/parking_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

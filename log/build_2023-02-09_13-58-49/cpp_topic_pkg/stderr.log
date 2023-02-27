@@ -1,0 +1,43 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:381:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+  381 | }
+      | 
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:262:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  262 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "RightsiteRisk : %d", int((ypos+10)*(grid/20));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:216:41:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  216 | class ParkingNode : public rclcpp::Node [01;36m[K{[m[K
+      |                                         [01;36m[K^[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K In constructor ‘[01m[KParkingNode::ParkingNode()[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:236:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_callback[m[K’ is not a member of ‘[01m[KParkingNode[m[K’
+  236 |                 std::bind(&ParkingNode::[01;31m[Kodom_callback[m[K, this, std::placeholders::_1) );
+      |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:242:9:[m[K [01;31m[Kerror: [m[K‘[01m[KArrayInit[m[K’ was not declared in this scope
+  242 |         [01;31m[KArrayInit[m[K((msg->ranges), RightsiteRisk, LeftsiteRisk);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:247:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_robot_left[m[K’ was not declared in this scope
+  247 |             [01;31m[Kmove_robot_left[m[K(RightsiteRisk);
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:252:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_robot_Right[m[K’ was not declared in this scope
+  252 |             [01;31m[Kmove_robot_Right[m[K(LeftsiteRisk);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:256:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_robot[m[K’ was not declared in this scope
+  256 |             [01;31m[Kstop_robot[m[K();
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:260:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kheading_scan_position[m[K’ was not declared in this scope
+  260 |         [01;31m[Kheading_scan_position[m[K(msg->ranges);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:262:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+  262 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "RightsiteRisk : %d", int((ypos+10)*(grid/20));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:262:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:239:55:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  239 |     void sub_callback(const LaserScan::SharedPtr msg) [01;36m[K{[m[K
+      |                                                       [01;36m[K^[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K At global scope:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:262:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  262 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "RightsiteRisk : %d", int((ypos+10)*(grid/20));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/parkingz_node.dir/build.make:76: CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/parkingz_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

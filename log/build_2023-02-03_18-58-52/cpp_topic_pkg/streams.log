@@ -1,0 +1,17 @@
+[0.041s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.249s] [ 12%] Built target cmd_vel_pub_node
+[0.250s] [ 25%] Built target laser_sub_node
+[0.250s] [ 31%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[0.250s] [ 43%] Built target parkingz_node
+[0.250s] [ 56%] Built target topic_pub_node
+[0.251s] [ 68%] Built target topic_sub_node
+[0.252s] [ 81%] Built target topic_pub_oop_node
+[0.252s] [ 93%] Built target topic_sub_oop_node
+[1.268s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.269s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:191:33:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid ParkingNode::ShowRoboVeloInfo()[m[K’ without object
+[1.269s]   191 |   ParkingNode::ShowRoboVeloInfo([01;31m[K)[m[K;
+[1.269s]       |                                 [01;31m[K^[m[K
+[2.790s] make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+[2.790s] make[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/parking_node.dir/all] Error 2
+[2.790s] make: *** [Makefile:146: all] Error 2
+[2.791s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8

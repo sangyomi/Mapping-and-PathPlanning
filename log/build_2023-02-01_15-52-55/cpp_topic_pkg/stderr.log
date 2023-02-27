@@ -1,0 +1,12 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:39:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::_ranges_type[m[K’ {aka ‘[01m[Kstd::vector<float>[m[K’} to ‘[01m[Kfloat*&[m[K’
+   39 |     int Lift_Site = ArrayInit([01;31m[K(msg->ranges)[m[K);
+      |                               [01;31m[K~~~~~~^~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::_ranges_type {aka std::vector<float>}[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:65:25:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint ParkingNode::ArrayInit(float*&)[m[K’
+   65 |   int ArrayInit([01;36m[Kfloat* &scanarray[m[K)
+      |                 [01;36m[K~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/parking_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

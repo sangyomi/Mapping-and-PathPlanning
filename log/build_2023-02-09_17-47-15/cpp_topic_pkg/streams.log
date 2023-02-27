@@ -1,0 +1,29 @@
+[0.041s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.087s] [ 12%] Built target cmd_vel_pub_node
+[0.096s] [ 25%] Built target parking_node
+[0.096s] [ 31%] [32mBuilding CXX object CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o[0m
+[0.099s] [ 43%] Built target laser_sub_node
+[0.100s] [ 68%] Built target topic_pub_node
+[0.100s] [ 68%] Built target topic_sub_node
+[0.101s] [ 81%] Built target topic_pub_oop_node
+[0.102s] [ 93%] Built target topic_sub_oop_node
+[1.488s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K In member function ‘[01m[Kint ParkingNode::star_position(int, int)[m[K’:
+[1.488s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:287:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[1.488s]   287 |             [01;35m[Kif[m[K(zmap[CurrentX+dx1[i]][CurrentY+dy1[i]]=='*')
+[1.488s]       |             [01;35m[K^~[m[K
+[1.488s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:289:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[1.488s]   289 |                 [01;36m[Kreturn[m[K
+[1.488s]       |                 [01;36m[K^~~~~~[m[K
+[1.489s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:290:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+[1.489s]   290 |             [01;31m[Kif[m[K(zmap[CurrentX+dx2[i]][CurrentY+dy2[i]]=='*')
+[1.489s]       |             [01;31m[K^~[m[K
+[1.489s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:289:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+[1.489s]   289 |                 return
+[1.489s]       |                       [01;31m[K^[m[K
+[1.489s]       |                       [32m[K;[m[K
+[1.489s]   290 |             [32m[Kif[m[K(zmap[CurrentX+dx2[i]][CurrentY+dy2[i]]=='*')
+[1.489s]       |             [32m[K~~[m[K         
+[3.229s] make[2]: *** [CMakeFiles/parkingz_node.dir/build.make:76: CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o] Error 1
+[3.229s] make[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/parkingz_node.dir/all] Error 2
+[3.230s] make: *** [Makefile:146: all] Error 2
+[3.231s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8

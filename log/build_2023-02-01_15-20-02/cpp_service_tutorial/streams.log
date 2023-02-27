@@ -1,0 +1,84 @@
+[0.049s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial
+[0.268s] -- The C compiler identification is GNU 9.4.0
+[0.268s] -- The CXX compiler identification is GNU 9.4.0
+[0.268s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.269s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.269s] -- Detecting C compile features - done
+[0.269s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.307s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.307s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.433s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.450s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.553s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.587s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.731s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.772s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.774s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.835s] -- Looking for pthread_create in pthreads
+[0.878s] -- Looking for pthread_create in pthreads - not found
+[0.878s] -- Looking for pthread_create in pthread
+[0.947s] -- Looking for pthread_create in pthread - found
+[0.948s] -- Found Threads: TRUE  
+[1.083s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.394s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.530s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.531s] -- Configured cppcheck include dirs: 
+[1.531s] -- Configured cppcheck exclude dirs and/or files: 
+[1.531s] -- Added test 'lint_cmake' to check CMake code style
+[1.534s] -- Added test 'uncrustify' to check C / C++ code style
+[1.534s] -- Configured uncrustify additional arguments: 
+[1.534s] -- Added test 'xmllint' to check XML markup files
+[1.534s] -- Configuring done
+[1.587s] -- Generating done
+[1.590s] -- Build files have been written to: /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial
+[1.614s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake /home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial
+[1.615s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial -- -j8 -l8
+[1.838s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_simple_service_dummy_server_node.dir/src/cpp_simple_service_dummy_server.cpp.o[0m
+[1.838s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_simple_service_client_node.dir/src/cpp_simple_service_client.cpp.o[0m
+[1.857s] [ 37%] [32mBuilding CXX object CMakeFiles/srv_server_node.dir/src/srv_server.cpp.o[0m
+[1.884s] [ 50%] [32mBuilding CXX object CMakeFiles/srv_client_node.dir/src/srv_client.cpp.o[0m
+[8.197s] [ 62%] [32m[1mLinking CXX executable cpp_simple_service_dummy_server_node[0m
+[8.246s] [ 75%] [32m[1mLinking CXX executable srv_server_node[0m
+[8.629s] [ 75%] Built target cpp_simple_service_dummy_server_node
+[8.721s] [ 75%] Built target srv_server_node
+[8.785s] [ 87%] [32m[1mLinking CXX executable srv_client_node[0m
+[8.815s] [100%] [32m[1mLinking CXX executable cpp_simple_service_client_node[0m
+[9.029s] [100%] Built target srv_client_node
+[9.133s] [100%] Built target cpp_simple_service_client_node
+[9.149s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial -- -j8 -l8
+[9.204s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial
+[9.212s] -- Install configuration: ""
+[9.212s] -- Execute custom install script
+[9.212s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/cpp_simple_service_client_node
+[9.216s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/cpp_simple_service_dummy_server_node
+[9.220s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/srv_server_node
+[9.224s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/lib/cpp_service_tutorial/srv_client_node
+[9.228s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/package_run_dependencies/cpp_service_tutorial
+[9.232s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/parent_prefix_path/cpp_service_tutorial
+[9.236s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/ament_prefix_path.sh
+[9.242s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/ament_prefix_path.dsv
+[9.246s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/path.sh
+[9.250s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/path.dsv
+[9.255s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.bash
+[9.259s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.sh
+[9.265s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.zsh
+[9.269s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.dsv
+[9.274s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv
+[9.279s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/ament_index/resource_index/packages/cpp_service_tutorial
+[9.283s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/cmake/cpp_service_tutorialConfig.cmake
+[9.288s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/cmake/cpp_service_tutorialConfig-version.cmake
+[9.292s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial/share/cpp_service_tutorial/package.xml
+[9.302s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_service_tutorial

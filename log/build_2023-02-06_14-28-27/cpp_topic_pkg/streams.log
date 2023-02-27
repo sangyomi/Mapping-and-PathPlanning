@@ -1,0 +1,30 @@
+[0.048s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.104s] [ 12%] Built target cmd_vel_pub_node
+[0.107s] [ 25%] Built target laser_sub_node
+[0.110s] [ 31%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[0.113s] [ 43%] Built target parkingz_node
+[0.113s] [ 56%] Built target topic_pub_node
+[0.117s] [ 68%] Built target topic_pub_oop_node
+[0.117s] [ 81%] Built target topic_sub_node
+[0.125s] [ 93%] Built target topic_sub_oop_node
+[1.266s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:28:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K;[m[K’ token
+[1.266s]    28 |     grid = 200[01;31m[K;[m[K
+[1.266s]       |               [01;31m[K^[m[K
+[1.266s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:27:16:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.266s]    27 | enum Initseting[01;36m[K{[m[K
+[1.266s]       |                [01;36m[K^[m[K
+[1.266s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:29:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.266s]    29 | [01;31m[K}[m[K;
+[1.267s]       | [01;31m[K^[m[K
+[1.315s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::heading_scan_position(std::vector<float>&)[m[K’:
+[1.315s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:166:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[1.315s]   166 |             if ((0<=[01;31m[Kx[m[K[i]&&x[i]<grid)&&(0<=y[i]&&y[i]<grid))
+[1.315s]       |                     [01;31m[K^[m[K
+[1.316s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:166:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[1.316s]   166 |             if ((0<=x[i]&&x[i]<grid)&&(0<=[01;31m[Ky[m[K[i]&&y[i]<grid))
+[1.316s]       |                                           [01;31m[K^[m[K
+[1.316s]       |                                           [32m[Kyn[m[K
+[2.941s] make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+[2.941s] make[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/parking_node.dir/all] Error 2
+[2.941s] make: *** [Makefile:146: all] Error 2
+[2.942s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8

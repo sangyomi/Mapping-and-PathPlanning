@@ -1,0 +1,7 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::heading_scan_position(std::vector<float>&)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:152:52:[m[K [01;31m[Kerror: [m[K‘[01m[KRR[m[K’ was not declared in this scope
+  152 |             x[i] = int((scanarray[i]*cos((heading+([01;31m[KRR[m[K*(i-359)))) + xpos)*10+50);
+      |                                                    [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/parking_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

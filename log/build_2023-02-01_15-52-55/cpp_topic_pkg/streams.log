@@ -1,0 +1,21 @@
+[0.054s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.257s] [ 14%] Built target cmd_vel_pub_node
+[0.257s] [ 28%] Built target laser_sub_node
+[0.257s] [ 42%] Built target topic_pub_node
+[0.257s] [ 57%] Built target topic_pub_oop_node
+[0.257s] [ 71%] Built target topic_sub_node
+[0.257s] [ 78%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[0.257s] [ 92%] Built target topic_sub_oop_node
+[1.104s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.104s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:39:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::_ranges_type[m[K’ {aka ‘[01m[Kstd::vector<float>[m[K’} to ‘[01m[Kfloat*&[m[K’
+[1.104s]    39 |     int Lift_Site = ArrayInit([01;31m[K(msg->ranges)[m[K);
+[1.104s]       |                               [01;31m[K~~~~~~^~~~~~~[m[K
+[1.104s]       |                                     [01;31m[K|[m[K
+[1.104s]       |                                     [01;31m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::_ranges_type {aka std::vector<float>}[m[K
+[1.105s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:65:25:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint ParkingNode::ArrayInit(float*&)[m[K’
+[1.105s]    65 |   int ArrayInit([01;36m[Kfloat* &scanarray[m[K)
+[1.105s]       |                 [01;36m[K~~~~~~~~^~~~~~~~~[m[K
+[2.421s] make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+[2.421s] make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/parking_node.dir/all] Error 2
+[2.421s] make: *** [Makefile:146: all] Error 2
+[2.422s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8

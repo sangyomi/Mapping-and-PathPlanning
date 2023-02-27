@@ -1,0 +1,16 @@
+[ 25%] Built target parking_node
+[ 31%] [32mBuilding CXX object CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o[0m
+[ 12%] Built target cmd_vel_pub_node
+[ 43%] Built target laser_sub_node
+[ 56%] Built target topic_pub_node
+[ 68%] Built target topic_sub_oop_node
+[ 81%] Built target topic_sub_node
+[ 93%] Built target topic_pub_oop_node
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:263:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  263 |         startAstar[34m[K([m[Kint((xpos+10)*(grid/20)), int((ypos+10)*(grid/20))[01;31m[K;[m[K
+      |                   [34m[K~[m[K                                                  [01;31m[K^[m[K
+      |                                                                      [32m[K)[m[K
+make[2]: *** [CMakeFiles/parkingz_node.dir/build.make:76: CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/parkingz_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,31 @@
+[0.950s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data
+[1.163s] running develop
+[1.309s] running egg_info
+[1.309s] creating py_topic_pkg.egg-info
+[1.309s] writing py_topic_pkg.egg-info/PKG-INFO
+[1.309s] writing dependency_links to py_topic_pkg.egg-info/dependency_links.txt
+[1.309s] writing entry points to py_topic_pkg.egg-info/entry_points.txt
+[1.309s] writing requirements to py_topic_pkg.egg-info/requires.txt
+[1.310s] writing top-level names to py_topic_pkg.egg-info/top_level.txt
+[1.311s] writing manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[1.349s] reading manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[1.349s] writing manifest file 'py_topic_pkg.egg-info/SOURCES.txt'
+[1.390s] running build_ext
+[1.390s] Creating /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/site.py
+[1.393s] Creating /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages/py-topic-pkg.egg-link (link to .)
+[1.394s] Installing cmd_vel_pub_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.394s] Installing endless_cmd_vel_pub_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.394s] Installing laser_raw_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.395s] Installing laser_sub_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.395s] Installing parking_node script to /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/py_topic_pkg
+[1.395s] 
+[1.395s] Installed /home/sangjun/gcamp_ros2_ws/build/py_topic_pkg
+[1.396s] running install_data
+[1.396s] creating /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/ament_index
+[1.396s] creating /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/ament_index/resource_index
+[1.396s] creating /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/ament_index/resource_index/packages
+[1.396s] copying resource/py_topic_pkg -> /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/ament_index/resource_index/packages
+[1.397s] copying package.xml -> /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg
+[1.397s] creating /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/launch
+[1.397s] copying launch/cmd_vel_pub.launch.py -> /home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/share/py_topic_pkg/launch
+[1.478s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg' returned '0': PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_topic_pkg/build --no-deps install_data

@@ -1,0 +1,4 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::ShowRoboVeloInfo()[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:169:29:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+  169 |               std::cout << ([01;35m[K"%d"[m[K,Mapmatrix[i][j]);
+      |                             [01;35m[K^~~~[m[K

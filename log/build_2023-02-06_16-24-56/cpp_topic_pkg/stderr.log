@@ -1,0 +1,7 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In function ‘[01m[Kvoid startAstar()[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:372:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krow[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  372 |     int [01;35m[Krow[m[K, col;
+      |         [01;35m[K^~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:372:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcol[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  372 |     int row, [01;35m[Kcol[m[K;
+      |              [01;35m[K^~~[m[K

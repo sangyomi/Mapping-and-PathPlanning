@@ -1,0 +1,51 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:25:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_mags[m[K’ does not name a type; did you mean ‘[01m[Knav_msgs[m[K’?
+   25 | using Odometry = [01;31m[Knav_mags[m[K::msg::Odometry;
+      |                  [01;31m[K^~~~~~~~[m[K
+      |                  [32m[Knav_msgs[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:30:24:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ was not declared in this scope; did you mean ‘[01m[Knav_msgs::msg::Odometry[m[K’?
+   30 |   rclcpp::Subscription<[01;31m[KOdometry[m[K>::SharedPtr m_sub_odom;
+      |                        [01;31m[K^~~~~~~~[m[K
+      |                        [32m[Knav_msgs::msg::Odometry[m[K
+In file included from [01m[K/opt/ros/foxy/include/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:19[m[K:
+[01m[K/opt/ros/foxy/include/nav_msgs/msg/detail/odometry__struct.hpp:171:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav_msgs::msg::Odometry[m[K’ declared here
+  171 | using [01;36m[KOdometry[m[K =
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:30:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |   rclcpp::Subscription<Odometry[01;31m[K>[m[K::SharedPtr m_sub_odom;
+      |                                [01;31m[K^[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:30:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:30:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   30 |   rclcpp::Subscription<Odometry>::[01;31m[KSharedPtr[m[K m_sub_odom;
+      |                                   [01;31m[K^~~~~~~~~[m[K
+      |                                            [32m[K;[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:30:45:[m[K [01;31m[Kerror: [m[K‘[01m[Km_sub_odom[m[K’ does not name a type
+   30 |   rclcpp::Subscription<Odometry>::SharedPtr [01;31m[Km_sub_odom[m[K;
+      |                                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:70:20:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ does not name a type
+   70 |   double Yaw(const [01;31m[KOdometry[m[K::SharedPtr msg){
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:70:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   70 |   double Yaw(const Odometry::SharedPtr [01;31m[Kmsg[m[K){
+      |                                        [01;31m[K^~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:70:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   70 |   double Yaw[34m[K([m[Kconst Odometry::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K){
+      |             [34m[K~[m[K                         [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                       [32m[K)[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:70:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   70 |   double Yaw(const Odometry::[01;31m[KSharedPtr[m[K msg){
+      |                              [01;31m[K^~~~~~~~~[m[K
+      |                                       [32m[K;[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:70:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   70 |   double Yaw(const Odometry::SharedPtr [01;31m[Kmsg[m[K){
+      |                                        [01;31m[K^~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In constructor ‘[01m[KParkingNode::ParkingNode()[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_sub_odom[m[K’ was not declared in this scope
+   41 |     [01;31m[Km_sub_odom[m[K = create_subscription<nav_msgs::msg::Odometry>(
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:43:20:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPoseOdomSubscriber[m[K’ has not been declared
+   43 |         std::bind(&[01;31m[KMinimalPoseOdomSubscriber[m[K::odomCallback, this, std::placeholders::_1) );
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/parking_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,53 @@
+[0.072s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.133s] [ 12%] Built target topic_pub_node
+[0.134s] [ 25%] Built target cmd_vel_pub_node
+[0.136s] [ 37%] Built target laser_sub_node
+[0.136s] [ 50%] Built target parkingz_node
+[0.136s] [ 56%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[0.139s] [ 68%] Built target topic_pub_oop_node
+[0.144s] [ 81%] Built target topic_sub_node
+[0.147s] [ 93%] Built target topic_sub_oop_node
+[1.332s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::heading_scan_position(std::vector<float>&)[m[K’:
+[1.332s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:153:67:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint [720][m[K’ to binary ‘[01m[Koperator+[m[K’
+[1.332s]   153 |           xpos[i] = int((scanarray[i]*cos((heading+(RR*(i-359)))) [01;31m[K+[m[K [32m[Kxpos[m[K)*10+100);
+[1.332s]       |                                                                   [01;31m[K^[m[K [32m[K~~~~[m[K
+[1.332s]       |                                                                     [32m[K|[m[K
+[1.332s]       |                                                                     [32m[Kint [720][m[K
+[1.332s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:154:67:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint [720][m[K’ to binary ‘[01m[Koperator+[m[K’
+[1.332s]   154 |           ypos[i] = int((scanarray[i]*sin((heading+(RR*(i-359)))) [01;31m[K+[m[K [32m[Kypos[m[K)*10+100);
+[1.332s]       |                                                                   [01;31m[K^[m[K [32m[K~~~~[m[K
+[1.332s]       |                                                                     [32m[K|[m[K
+[1.332s]       |                                                                     [32m[Kint [720][m[K
+[1.333s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:162:27:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.333s]   162 |           Mapmatrix[[01;35m[Kxpos[i][m[K,ypos[i]] = true;
+[1.333s]       |                     [01;35m[K~~~~~~^[m[K
+[1.333s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:162:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::vector<bool, std::allocator<bool> > >, std::vector<bool, std::allocator<bool> > >::value_type[m[K’ {aka ‘[01m[Kstd::vector<bool, std::allocator<bool> >[m[K’} and ‘[01m[Kbool[m[K’)
+[1.333s]   162 |           Mapmatrix[xpos[i],ypos[i]] = [01;31m[Ktrue[m[K;
+[1.333s]       |                                        [01;31m[K^~~~[m[K
+[1.333s] In file included from [01m[K/usr/include/c++/9/vector:68[m[K,
+[1.333s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:22[m[K,
+[1.333s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:8[m[K,
+[1.333s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[1.333s]                  from [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:16[m[K:
+[1.333s] [01m[K/usr/include/c++/9/bits/stl_bvector.h:717:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(const std::vector<bool, _Alloc>&) [with _Alloc = std::allocator<bool>][m[K’
+[1.333s]   717 |       [01;36m[Koperator[m[K=(const vector& __x)
+[1.333s]       |       [01;36m[K^~~~~~~~[m[K
+[1.333s] [01m[K/usr/include/c++/9/bits/stl_bvector.h:717:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kbool[m[K’ to ‘[01m[Kconst std::vector<bool, std::allocator<bool> >&[m[K’
+[1.334s]   717 |       operator=([01;36m[Kconst vector& __x[m[K)
+[1.334s]       |                 [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[1.334s] [01m[K/usr/include/c++/9/bits/stl_bvector.h:748:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(std::vector<bool, _Alloc>&&) [with _Alloc = std::allocator<bool>][m[K’
+[1.334s]   748 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Bit_alloc_traits::_S_nothrow_move())
+[1.334s]       |       [01;36m[K^~~~~~~~[m[K
+[1.334s] [01m[K/usr/include/c++/9/bits/stl_bvector.h:748:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kbool[m[K’ to ‘[01m[Kstd::vector<bool, std::allocator<bool> >&&[m[K’
+[1.334s]   748 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Bit_alloc_traits::_S_nothrow_move())
+[1.334s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[1.334s] [01m[K/usr/include/c++/9/bits/stl_bvector.h:773:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(std::initializer_list<bool>) [with _Alloc = std::allocator<bool>][m[K’
+[1.334s]   773 |       [01;36m[Koperator[m[K=(initializer_list<bool> __l)
+[1.334s]       |       [01;36m[K^~~~~~~~[m[K
+[1.334s] [01m[K/usr/include/c++/9/bits/stl_bvector.h:773:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kbool[m[K’ to ‘[01m[Kstd::initializer_list<bool>[m[K’
+[1.334s]   773 |       operator=([01;36m[Kinitializer_list<bool> __l[m[K)
+[1.334s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.008s] make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+[3.008s] make[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/parking_node.dir/all] Error 2
+[3.008s] make: *** [Makefile:146: all] Error 2
+[3.022s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8

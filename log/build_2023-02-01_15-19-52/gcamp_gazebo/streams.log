@@ -1,0 +1,95 @@
+[0.010s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo
+[0.057s] -- The C compiler identification is GNU 9.4.0
+[0.112s] -- The CXX compiler identification is GNU 9.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.248s] -- Detecting CXX compile features
+[0.248s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.272s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.272s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.390s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.413s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.502s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.525s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.619s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.677s] -- Looking for pthread_create in pthreads
+[0.750s] -- Looking for pthread_create in pthreads - not found
+[0.750s] -- Looking for pthread_create in pthread
+[0.802s] -- Looking for pthread_create in pthread - found
+[0.803s] -- Found Threads: TRUE  
+[0.905s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.961s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.965s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.965s] -- Added test 'lint_cmake' to check CMake code style
+[0.966s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.968s] -- Added test 'xmllint' to check XML markup files
+[0.969s] -- Configuring done
+[0.972s] -- Generating done
+[0.972s] -- Build files have been written to: /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo
+[0.978s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/gcamp_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo
+[0.981s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo -- -j8 -l8
+[0.998s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo -- -j8 -l8
+[1.020s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo
+[1.023s] -- Install configuration: ""
+[1.024s] -- Execute custom install script
+[1.024s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/diffbot_description.launch.py
+[1.028s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/empty_world.launch.py
+[1.031s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/first_launch.launch.py
+[1.034s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world.launch.py
+[1.038s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world_windows.launch.py
+[1.041s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/maze_world.launch.py
+[1.043s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/second_launch.launch.py
+[1.046s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skid_robot_world.launch.py
+[1.049s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/skidbot_description.launch.py
+[1.051s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/spawn_entity.launch.py
+[1.054s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/launch/tinybot_description.launch.py
+[1.057s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/bocbot_office.world
+[1.060s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/gcamp_world.world
+[1.063s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/worlds/maze_world.world
+[1.066s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.gazebo
+[1.068s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf
+[1.071s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf.xacro
+[1.072s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/sambot.urdf
+[1.074s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.gazebo
+[1.076s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf
+[1.078s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf.xacro
+[1.079s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.gazebo
+[1.081s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf
+[1.083s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf.xacro
+[1.084s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.gazebo
+[1.086s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf
+[1.088s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf.xacro
+[1.089s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/urdf/turtlebot.sdf
+[1.091s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/description.rviz
+[1.093s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/diffbot.rviz
+[1.095s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/skidbot.rviz
+[1.097s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/rviz/tinybot.rviz
+[1.098s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/package_run_dependencies/gcamp_gazebo
+[1.100s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/parent_prefix_path/gcamp_gazebo
+[1.102s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.sh
+[1.104s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.dsv
+[1.106s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.sh
+[1.107s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.dsv
+[1.109s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.bash
+[1.111s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.sh
+[1.113s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.zsh
+[1.115s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.dsv
+[1.116s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv
+[1.118s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/ament_index/resource_index/packages/gcamp_gazebo
+[1.120s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig.cmake
+[1.122s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig-version.cmake
+[1.123s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo/share/gcamp_gazebo/package.xml
+[1.127s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/gcamp_gazebo

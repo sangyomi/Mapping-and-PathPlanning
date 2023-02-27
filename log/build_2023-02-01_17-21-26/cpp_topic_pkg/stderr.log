@@ -1,0 +1,12 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::move_robot(const int&)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:61:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KdefaultV[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   61 |   void move_robot([01;35m[Kconst int &defaultV[m[K) {
+      |                   [01;35m[K~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::move_robot_left(const int&)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:67:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KRightsiteRisk[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   67 |   void move_robot_left([01;35m[Kconst int &RightsiteRisk[m[K) {
+      |                        [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::move_robot_Right(const int&)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:73:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLeftsiteRisk[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   73 |   void move_robot_Right([01;35m[Kconst int &LeftsiteRisk[m[K) {
+      |                         [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~[m[K

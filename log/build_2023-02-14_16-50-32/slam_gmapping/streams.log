@@ -1,0 +1,24 @@
+[0.163s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/slam_gmapping -- -j8 -l8
+[0.189s] [100%] Built target slam_gmapping
+[0.214s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/slam_gmapping -- -j8 -l8
+[0.570s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/slam_gmapping
+[0.582s] -- Install configuration: ""
+[0.583s] -- Execute custom install script
+[0.584s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[0.584s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[0.584s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[0.584s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[0.584s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[0.584s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[0.585s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[0.586s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[0.586s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[0.586s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[0.586s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[0.586s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[0.586s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[0.587s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[0.587s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[0.587s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[0.588s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[0.594s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/slam_gmapping

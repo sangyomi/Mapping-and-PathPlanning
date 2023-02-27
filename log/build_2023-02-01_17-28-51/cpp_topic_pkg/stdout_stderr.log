@@ -1,0 +1,25 @@
+[ 28%] Built target laser_sub_node
+[ 28%] Built target topic_pub_node
+[ 42%] Built target cmd_vel_pub_node
+[ 57%] Built target topic_sub_node
+[ 71%] Built target topic_sub_oop_node
+[ 78%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[ 92%] Built target topic_pub_oop_node
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:48:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   48 |           move_robot()
+      |                       [01;31m[K^[m[K
+      |                       [32m[K;[m[K
+   49 |       [32m[K}[m[K
+      |       [32m[K~[m[K                
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::move_robot_left(const int&)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:72:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KRightsiteRisk[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   72 |   void move_robot_left([01;35m[Kconst int &RightsiteRisk[m[K) {
+      |                        [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::move_robot_Right(const int&)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:78:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KLeftsiteRisk[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   78 |   void move_robot_Right([01;35m[Kconst int &LeftsiteRisk[m[K) {
+      |                         [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/parking_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

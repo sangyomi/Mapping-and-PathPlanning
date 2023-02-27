@@ -1,0 +1,39 @@
+[0.075s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.409s] [  6%] [32mBuilding CXX object CMakeFiles/parking_node.dir/src/parking.cpp.o[0m
+[0.409s] [ 18%] Built target laser_sub_node
+[0.410s] [ 31%] Built target parkingz_node
+[0.410s] [ 43%] Built target cmd_vel_pub_node
+[0.410s] [ 56%] Built target topic_pub_node
+[0.410s] [ 68%] Built target topic_pub_oop_node
+[0.410s] [ 81%] Built target topic_sub_node
+[0.410s] [ 93%] Built target topic_sub_oop_node
+[5.703s] [100%] [32m[1mLinking CXX executable parking_node[0m
+[5.900s] [100%] Built target parking_node
+[5.905s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[5.936s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg
+[5.940s] -- Install configuration: ""
+[5.941s] -- Execute custom install script
+[5.942s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/cmd_vel_pub_node
+[5.942s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/laser_sub_node
+[5.942s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/parking_node
+[5.942s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/parkingz_node
+[5.943s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_node
+[5.943s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_pub_oop_node
+[5.943s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_node
+[5.944s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/lib/cpp_topic_pkg/topic_sub_oop_node
+[5.944s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_topic_pkg
+[5.944s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_topic_pkg
+[5.944s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.sh
+[5.944s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/ament_prefix_path.dsv
+[5.945s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.sh
+[5.945s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/environment/path.dsv
+[5.945s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.bash
+[5.945s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.sh
+[5.945s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.zsh
+[5.946s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/local_setup.dsv
+[5.946s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.dsv
+[5.949s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/ament_index/resource_index/packages/cpp_topic_pkg
+[5.949s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig.cmake
+[5.949s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/cmake/cpp_topic_pkgConfig-version.cmake
+[5.949s] -- Up-to-date symlink: /home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg/share/cpp_topic_pkg/package.xml
+[5.954s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg

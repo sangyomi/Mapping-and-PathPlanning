@@ -1,0 +1,87 @@
+[0.033s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake /home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg
+[0.199s] -- The C compiler identification is GNU 9.4.0
+[0.199s] -- The CXX compiler identification is GNU 9.4.0
+[0.199s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.199s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.290s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.290s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.417s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.441s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.479s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.544s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.577s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.718s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.777s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.777s] -- Looking for pthread_create in pthreads
+[0.810s] -- Looking for pthread_create in pthreads - not found
+[0.810s] -- Looking for pthread_create in pthread
+[0.857s] -- Looking for pthread_create in pthread - found
+[0.858s] -- Found Threads: TRUE  
+[1.023s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.211s] -- Found custom_interfaces: 0.0.0 (/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake)
+[1.321s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.388s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.476s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.477s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.478s] -- Configured cppcheck include dirs: 
+[1.478s] -- Configured cppcheck exclude dirs and/or files: 
+[1.478s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.479s] -- Configured cpplint exclude dirs and/or files: 
+[1.479s] -- Added test 'lint_cmake' to check CMake code style
+[1.480s] -- Added test 'uncrustify' to check C / C++ code style
+[1.480s] -- Configured uncrustify additional arguments: 
+[1.481s] -- Added test 'xmllint' to check XML markup files
+[1.482s] -- Configuring done
+[1.507s] -- Generating done
+[1.510s] -- Build files have been written to: /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg
+[1.519s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake /home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_service_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg
+[1.521s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg -- -j8 -l8
+[1.547s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_turning_server_node.dir/src/robot_turning_server.cpp.o[0m
+[1.547s] [ 50%] [32mBuilding CXX object CMakeFiles/basic_server_node.dir/src/basic_server.cpp.o[0m
+[1.547s] [ 50%] [32mBuilding CXX object CMakeFiles/basic_client_node.dir/src/basic_client.cpp.o[0m
+[1.548s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_turning_client_node.dir/src/robot_turning_client.cpp.o[0m
+[3.946s] [ 62%] [32m[1mLinking CXX executable basic_server_node[0m
+[4.129s] [ 62%] Built target basic_server_node
+[4.415s] [ 75%] [32m[1mLinking CXX executable basic_client_node[0m
+[4.483s] [ 87%] [32m[1mLinking CXX executable robot_turning_client_node[0m
+[4.544s] [ 87%] Built target basic_client_node
+[4.608s] [ 87%] Built target robot_turning_client_node
+[5.072s] [100%] [32m[1mLinking CXX executable robot_turning_server_node[0m
+[5.197s] [100%] Built target robot_turning_server_node
+[5.201s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg -- -j8 -l8
+[5.223s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg
+[5.226s] -- Install configuration: ""
+[5.227s] -- Execute custom install script
+[5.228s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/basic_server_node
+[5.233s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/basic_client_node
+[5.233s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_server_node
+[5.235s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_client_node
+[5.236s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_service_pkg
+[5.239s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_service_pkg
+[5.240s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.sh
+[5.242s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.dsv
+[5.244s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.sh
+[5.245s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.dsv
+[5.248s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.bash
+[5.251s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.sh
+[5.254s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.zsh
+[5.256s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.dsv
+[5.259s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv
+[5.266s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/ament_index/resource_index/packages/cpp_service_pkg
+[5.266s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig.cmake
+[5.268s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig-version.cmake
+[5.272s] -- Symlinking: /home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg/share/cpp_service_pkg/package.xml
+[5.277s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --install /home/sangjun/gcamp_ros2_ws/build/cpp_service_pkg

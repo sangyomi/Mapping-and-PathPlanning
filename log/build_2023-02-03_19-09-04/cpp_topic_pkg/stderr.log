@@ -1,0 +1,6 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::ShowRoboVeloInfo()[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:187:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::vector<bool, std::allocator<bool> >::reference[m[K’ {aka ‘[01m[Kstd::_Bit_reference[m[K’} [[01;35m[K-Wformat=[m[K]
+  187 |               printf("[01;35m[K%d[m[K",[32m[KMapmatrix[i][j][m[K);
+      |                       [01;35m[K~^[m[K  [32m[K~~~~~~~~~~~~~~~[m[K
+      |                        [01;35m[K|[m[K                [32m[K|[m[K
+      |                        [01;35m[Kint[m[K              [32m[Kstd::vector<bool, std::allocator<bool> >::reference {aka std::_Bit_reference}[m[K

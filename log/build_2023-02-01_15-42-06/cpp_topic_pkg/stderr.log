@@ -1,0 +1,6 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parking.cpp:27:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMapscanner[m[K’ does not name a type
+   27 |   [01;31m[KMapscanner[m[K A;
+      |   [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/parking_node.dir/build.make:76: CMakeFiles/parking_node.dir/src/parking.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/parking_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

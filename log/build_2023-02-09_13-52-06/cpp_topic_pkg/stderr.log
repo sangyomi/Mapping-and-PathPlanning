@@ -1,0 +1,10 @@
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:261:20:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kint&[m[K’ to an rvalue of type ‘[01m[Kint[m[K’
+  261 |         startAstar([01;31m[Kint(xpos)[m[K, int(ypos));
+      |                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:190:22:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid startAstar(int&, int&)[m[K’
+  190 | void startAstar([01;36m[Kint &Startx[m[K, int &Starty)
+      |                 [01;36m[K~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/parkingz_node.dir/build.make:76: CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/parkingz_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

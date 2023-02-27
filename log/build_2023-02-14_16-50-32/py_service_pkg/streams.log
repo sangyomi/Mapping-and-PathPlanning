@@ -1,0 +1,25 @@
+[0.712s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/py_service_pkg': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib${LD_LIBRARY_PATH} PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_service_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data
+[0.856s] running develop
+[0.922s] running egg_info
+[0.922s] writing py_service_pkg.egg-info/PKG-INFO
+[0.922s] writing dependency_links to py_service_pkg.egg-info/dependency_links.txt
+[0.922s] writing entry points to py_service_pkg.egg-info/entry_points.txt
+[0.922s] writing requirements to py_service_pkg.egg-info/requires.txt
+[0.922s] writing top-level names to py_service_pkg.egg-info/top_level.txt
+[0.946s] reading manifest file 'py_service_pkg.egg-info/SOURCES.txt'
+[0.946s] writing manifest file 'py_service_pkg.egg-info/SOURCES.txt'
+[0.972s] running build_ext
+[0.972s] Creating /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages/py-service-pkg.egg-link (link to .)
+[0.975s] Installing basic_client script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.976s] Installing basic_server script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.976s] Installing custom_srv_client script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.976s] Installing custom_srv_server script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.976s] Installing gazebo_model_spawner script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.976s] Installing robot_turning_client script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.977s] Installing robot_turning_server script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.977s] Installing spawn_model script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.980s] Installing spawn_skidbot script to /home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/py_service_pkg
+[0.981s] 
+[0.981s] Installed /home/sangjun/gcamp_ros2_ws/build/py_service_pkg
+[0.981s] running install_data
+[0.992s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/py_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces CMAKE_PREFIX_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib${LD_LIBRARY_PATH} PYTHONPATH=/home/sangjun/gcamp_ros2_ws/build/py_service_pkg/prefix_override:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sangjun/gcamp_ros2_ws/build/py_service_pkg/build --no-deps install_data

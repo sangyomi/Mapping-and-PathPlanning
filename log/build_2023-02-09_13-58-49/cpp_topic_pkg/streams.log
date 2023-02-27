@@ -1,0 +1,53 @@
+[0.068s] Invoking command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
+[0.414s] [ 12%] Built target cmd_vel_pub_node
+[0.414s] [ 18%] [32mBuilding CXX object CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o[0m
+[0.414s] [ 31%] Built target laser_sub_node
+[0.414s] [ 56%] Built target topic_pub_node
+[0.414s] [ 56%] Built target parking_node
+[0.415s] [ 68%] Built target topic_pub_oop_node
+[0.415s] [ 81%] Built target topic_sub_node
+[0.415s] [ 93%] Built target topic_sub_oop_node
+[0.415s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:381:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.415s]   381 | }
+[0.415s]       | 
+[2.190s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:262:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.191s]   262 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "RightsiteRisk : %d", int((ypos+10)*(grid/20));
+[2.191s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.191s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:216:41:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.191s]   216 | class ParkingNode : public rclcpp::Node [01;36m[K{[m[K
+[2.191s]       |                                         [01;36m[K^[m[K
+[2.217s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K In constructor ‘[01m[KParkingNode::ParkingNode()[m[K’:
+[2.217s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:236:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_callback[m[K’ is not a member of ‘[01m[KParkingNode[m[K’
+[2.217s]   236 |                 std::bind(&ParkingNode::[01;31m[Kodom_callback[m[K, this, std::placeholders::_1) );
+[2.217s]       |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.225s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K In member function ‘[01m[Kvoid ParkingNode::sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.225s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:242:9:[m[K [01;31m[Kerror: [m[K‘[01m[KArrayInit[m[K’ was not declared in this scope
+[2.225s]   242 |         [01;31m[KArrayInit[m[K((msg->ranges), RightsiteRisk, LeftsiteRisk);
+[2.225s]       |         [01;31m[K^~~~~~~~~[m[K
+[2.232s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:247:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_robot_left[m[K’ was not declared in this scope
+[2.232s]   247 |             [01;31m[Kmove_robot_left[m[K(RightsiteRisk);
+[2.232s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.241s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:252:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_robot_Right[m[K’ was not declared in this scope
+[2.241s]   252 |             [01;31m[Kmove_robot_Right[m[K(LeftsiteRisk);
+[2.241s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.247s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:256:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_robot[m[K’ was not declared in this scope
+[2.247s]   256 |             [01;31m[Kstop_robot[m[K();
+[2.247s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.254s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:260:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kheading_scan_position[m[K’ was not declared in this scope
+[2.255s]   260 |         [01;31m[Kheading_scan_position[m[K(msg->ranges);
+[2.255s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.260s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:262:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[2.261s]   262 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "RightsiteRisk : %d", int((ypos+10)*(grid/20));
+[2.261s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.261s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:262:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.261s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:239:55:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.261s]   239 |     void sub_callback(const LaserScan::SharedPtr msg) [01;36m[K{[m[K
+[2.261s]       |                                                       [01;36m[K^[m[K
+[2.261s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:[m[K At global scope:
+[2.261s] [01m[K/home/sangjun/gcamp_ros2_ws/src/gcamp_ros2_basic/cpp_topic_pkg/src/parkingz.cpp:262:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.261s]   262 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "RightsiteRisk : %d", int((ypos+10)*(grid/20));
+[2.261s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.979s] make[2]: *** [CMakeFiles/parkingz_node.dir/build.make:76: CMakeFiles/parkingz_node.dir/src/parkingz.cpp.o] Error 1
+[3.979s] make[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/parkingz_node.dir/all] Error 2
+[3.979s] make: *** [Makefile:146: all] Error 2
+[3.982s] Invoked command in '/home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/gcamp_ros2_ws/build/cpp_topic_pkg -- -j8 -l8
